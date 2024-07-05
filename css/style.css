@@ -1,0 +1,18 @@
+.name:invalid {
+    animation: invalid-field 0.5s infinite;
+}
+
+
+/* Анимация для выделения красным светом */
+
+@keyframes invalid-field {
+    0% {
+        box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.7);
+    }
+    50% {
+        box-shadow: 0 0 20px 0 rgba(255, 0, 0, 0.7);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.7);
+    }
+}
